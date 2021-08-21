@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/well-balanced/gobyexample/arraypkg"
 	"github.com/well-balanced/gobyexample/constants"
 	"github.com/well-balanced/gobyexample/ifelse"
 	"github.com/well-balanced/gobyexample/loop"
@@ -32,4 +33,7 @@ func main() {
 
 	/* switch */
 	switchexp.Switch()
+
+	/* array */
+	arraypkg.PrintArrays()
 }
