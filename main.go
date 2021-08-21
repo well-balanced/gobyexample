@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/well-balanced/gobyexample/constants"
+	"github.com/well-balanced/gobyexample/ifelse"
 	"github.com/well-balanced/gobyexample/loop"
 	"github.com/well-balanced/gobyexample/morestrings"
 	"github.com/well-balanced/gobyexample/values"
@@ -25,4 +26,6 @@ func main() {
 	/* loop */
 	loop.Loop()
 
+	/* if/else */
+	ifelse.PrintValuesConditionally()
 }
