@@ -7,6 +7,7 @@ import (
 	"github.com/well-balanced/gobyexample/ifelse"
 	"github.com/well-balanced/gobyexample/loop"
 	"github.com/well-balanced/gobyexample/morestrings"
+	"github.com/well-balanced/gobyexample/switchexp"
 	"github.com/well-balanced/gobyexample/values"
 	"github.com/well-balanced/gobyexample/variables"
 )
@@ -28,4 +29,7 @@ func main() {
 
 	/* if/else */
 	ifelse.PrintValuesConditionally()
+
+	/* switch */
+	switchexp.Switch()
 }
