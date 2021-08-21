@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/well-balanced/gobyexample/constants"
+	"github.com/well-balanced/gobyexample/loop"
 	"github.com/well-balanced/gobyexample/morestrings"
 	"github.com/well-balanced/gobyexample/values"
 	"github.com/well-balanced/gobyexample/variables"
@@ -20,5 +21,8 @@ func main() {
 
 	/* constants */
 	constants.PrintConstants()
+
+	/* loop */
+	loop.Loop()
 
 }
