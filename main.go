@@ -7,6 +7,7 @@ import (
 	"github.com/well-balanced/gobyexample/constants"
 	"github.com/well-balanced/gobyexample/ifelse"
 	"github.com/well-balanced/gobyexample/loop"
+	"github.com/well-balanced/gobyexample/maps"
 	"github.com/well-balanced/gobyexample/morestrings"
 	"github.com/well-balanced/gobyexample/slices"
 	"github.com/well-balanced/gobyexample/switchexp"
@@ -40,4 +41,7 @@ func main() {
 
 	/* slices */
 	slices.PrintSlices()
+
+	/* maps */
+	maps.PrintMaps()
 }
