@@ -25,6 +25,7 @@ Note that maps appear in the form map[k:v k:v] when printed with fmt.Println.
 */
 
 func PrintMaps() {
+	fmt.Println("\n-------------maps------------")
 
 	m := make(map[string]int)
 
@@ -46,4 +47,6 @@ func PrintMaps() {
 
 	n := map[string]int{"foo": 1, "bar": 2}
 	fmt.Println("map:", n)
+
+	fmt.Println("-------------------------------")
 }
