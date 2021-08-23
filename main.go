@@ -16,6 +16,7 @@ import (
 	"github.com/well-balanced/gobyexample/switchexp"
 	"github.com/well-balanced/gobyexample/values"
 	"github.com/well-balanced/gobyexample/variables"
+	"github.com/well-balanced/gobyexample/variadicfunctions"
 )
 
 func main() {
@@ -56,4 +57,7 @@ func main() {
 
 	/* multiple return functions */
 	multiplereturnfunctions.MakeMutipleValueFunction()
+
+	/* variadic functions */
+	variadicfunctions.MakeVariadicFunction()
 }
