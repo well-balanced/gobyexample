@@ -22,7 +22,6 @@ A number can be given a type by using it in a context that requires one, such as
 const s string = "constant"
 
 func PrintConstants() {
-	fmt.Println("\n-------------constants------------")
 	fmt.Println(s)
 
 	const n = 500000000
@@ -33,5 +32,4 @@ func PrintConstants() {
 	fmt.Println(int64(d))
 
 	fmt.Println(math.Sin(n))
-	fmt.Println("------------------------------------")
 }

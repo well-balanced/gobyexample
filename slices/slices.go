@@ -32,8 +32,6 @@ by the Go team for more details on the design and implementation of slices in Go
 */
 
 func PrintSlices() {
-	fmt.Println("\n-------------slices------------")
-
 	s := make([]string, 3)
 	fmt.Println("emp", s)
 
@@ -74,6 +72,4 @@ func PrintSlices() {
 		}
 	}
 	fmt.Println("2d:", twoD)
-
-	fmt.Println("-------------------------------")
 }

@@ -16,7 +16,6 @@ Variables declared without a corresponding initialization are zero-valued. For e
 The := syntax is shorthand for declaring and initializing a variable, e.g. for var f string = "apple" in this case
 */
 func PrintVariables() {
-	fmt.Println("\n-------------variables------------")
 	var a = "initial"
 	fmt.Println(a)
 
@@ -31,5 +30,4 @@ func PrintVariables() {
 
 	f := "apple"
 	fmt.Println(f)
-	fmt.Println("-------------------------------")
 }

@@ -18,7 +18,6 @@ A type switch compares types instead of values. You can use this to discover the
 */
 
 func Switch() {
-	fmt.Println("\n-------------switch------------")
 	i := 2
 	fmt.Println("Write", i, "as")
 	switch i {
@@ -59,5 +58,4 @@ func Switch() {
 	whatAmI(true)
 	whatAmI(1)
 	whatAmI("hey")
-	fmt.Println("-------------------------------")
 }

@@ -15,7 +15,6 @@ You can also continue to the next iteration of the loop.
 */
 
 func Loop() {
-	fmt.Println("\n-------------loop------------")
 	i := 1
 	for i <= 3 {
 		fmt.Println(i)
@@ -37,5 +36,4 @@ func Loop() {
 		}
 		fmt.Println(n)
 	}
-	fmt.Println("------------------------------------")
 }
