@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/well-balanced/gobyexample/arraypkg"
+	"github.com/well-balanced/gobyexample/closures"
 	"github.com/well-balanced/gobyexample/constants"
 	"github.com/well-balanced/gobyexample/functions"
 	"github.com/well-balanced/gobyexample/ifelse"
@@ -60,4 +61,7 @@ func main() {
 
 	/* variadic functions */
 	variadicfunctions.MakeVariadicFunction()
+
+	/* closures */
+	closures.MakeClosureFunction()
 }
