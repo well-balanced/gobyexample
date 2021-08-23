@@ -22,6 +22,8 @@ A number can be given a type by using it in a context that requires one, such as
 const s string = "constant"
 
 func PrintConstants() {
+	defer fmt.Println()
+
 	fmt.Println(s)
 
 	const n = 500000000

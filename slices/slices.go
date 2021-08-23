@@ -32,6 +32,8 @@ by the Go team for more details on the design and implementation of slices in Go
 */
 
 func PrintSlices() {
+	defer fmt.Println()
+
 	s := make([]string, 3)
 	fmt.Println("emp", s)
 

@@ -19,6 +19,8 @@ func vals() (int, int) {
 }
 
 func MakeMutipleValueFunction() {
+	defer fmt.Println()
+
 	a, b := vals()
 	fmt.Println(a)
 	fmt.Println(b)

@@ -17,6 +17,8 @@ range on strings iterates over Unicode code points. The first value is the start
 */
 
 func PrintRanges() {
+	defer fmt.Println()
+
 	nums := []int{2, 3, 4}
 	sum := 0
 

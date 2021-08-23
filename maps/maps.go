@@ -25,6 +25,8 @@ Note that maps appear in the form map[k:v k:v] when printed with fmt.Println.
 */
 
 func PrintMaps() {
+	defer fmt.Println()
+
 	m := make(map[string]int)
 
 	m["k1"] = 7

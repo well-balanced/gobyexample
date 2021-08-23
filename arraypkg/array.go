@@ -21,6 +21,8 @@ You’ll see slices much more often than arrays in typical Go. We’ll look at s
 */
 
 func PrintArrays() {
+	defer fmt.Println()
+
 	var a [5]int
 	fmt.Println("emp:", a)
 

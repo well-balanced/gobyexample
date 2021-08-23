@@ -10,6 +10,8 @@ Integers and floats.
 Booleans, with boolean operators as you’d expect.
 */
 func PrintValues() {
+	defer fmt.Println()
+
 	fmt.Println(`fmt.Println("go" + "lang") = ` + "go" + "lang")
 	fmt.Println(`fmt.Println(1+1) = `, 1+1)
 	fmt.Println(`fmt.Println(7.0 / 3.0) = `, 7.0/3.0)

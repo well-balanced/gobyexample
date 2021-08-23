@@ -24,6 +24,8 @@ func sum(nums ...int) {
 }
 
 func MakeVariadicFunction() {
+	defer fmt.Println()
+
 	sum(1, 2)
 	sum(1, 2, 3)
 

@@ -15,6 +15,8 @@ You can also continue to the next iteration of the loop.
 */
 
 func Loop() {
+	defer fmt.Println()
+
 	i := 1
 	for i <= 3 {
 		fmt.Println(i)

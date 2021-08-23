@@ -18,6 +18,8 @@ A type switch compares types instead of values. You can use this to discover the
 */
 
 func Switch() {
+	defer fmt.Println()
+
 	i := 2
 	fmt.Println("Write", i, "as")
 	switch i {

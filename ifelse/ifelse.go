@@ -17,6 +17,8 @@ There is no ternary if in Go, so you’ll need to use a full if statement even f
 */
 
 func PrintValuesConditionally() {
+	defer fmt.Println()
+
 	testNumber := 7
 	if testNumber%2 == 0 {
 		fmt.Println(testNumber, "is even")
