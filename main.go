@@ -10,6 +10,7 @@ import (
 	"github.com/well-balanced/gobyexample/loop"
 	"github.com/well-balanced/gobyexample/maps"
 	"github.com/well-balanced/gobyexample/morestrings"
+	"github.com/well-balanced/gobyexample/multiplereturnfunctions"
 	"github.com/well-balanced/gobyexample/ranges"
 	"github.com/well-balanced/gobyexample/slices"
 	"github.com/well-balanced/gobyexample/switchexp"
@@ -38,7 +39,7 @@ func main() {
 	/* switch */
 	switchexp.Switch()
 
-	/* array */
+	/* arrays */
 	arraypkg.PrintArrays()
 
 	/* slices */
@@ -52,4 +53,7 @@ func main() {
 
 	/* functions */
 	functions.PrintFucntions()
+
+	/* multiple return functions */
+	multiplereturnfunctions.MakeMutipleValueFunction()
 }
