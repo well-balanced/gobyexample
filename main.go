@@ -5,6 +5,7 @@ import (
 
 	"github.com/well-balanced/gobyexample/arraypkg"
 	"github.com/well-balanced/gobyexample/constants"
+	"github.com/well-balanced/gobyexample/functions"
 	"github.com/well-balanced/gobyexample/ifelse"
 	"github.com/well-balanced/gobyexample/loop"
 	"github.com/well-balanced/gobyexample/maps"
@@ -48,4 +49,7 @@ func main() {
 
 	/* ranges */
 	ranges.PrintRanges()
+
+	/* functions */
+	functions.PrintFucntions()
 }
