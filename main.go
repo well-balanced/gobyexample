@@ -12,6 +12,7 @@ import (
 	"github.com/well-balanced/gobyexample/maps"
 	"github.com/well-balanced/gobyexample/morestrings"
 	"github.com/well-balanced/gobyexample/multiplereturnfunctions"
+	"github.com/well-balanced/gobyexample/pointers"
 	"github.com/well-balanced/gobyexample/ranges"
 	"github.com/well-balanced/gobyexample/recursion"
 	"github.com/well-balanced/gobyexample/slices"
@@ -68,4 +69,7 @@ func main() {
 
 	/* recursion */
 	recursion.RecursiveFunc()
+
+	/* pointers */
+	pointers.UsePointer()
 }
