@@ -16,6 +16,7 @@ import (
 	"github.com/well-balanced/gobyexample/ranges"
 	"github.com/well-balanced/gobyexample/recursion"
 	"github.com/well-balanced/gobyexample/slices"
+	"github.com/well-balanced/gobyexample/structs"
 	"github.com/well-balanced/gobyexample/switchexp"
 	"github.com/well-balanced/gobyexample/values"
 	"github.com/well-balanced/gobyexample/variables"
@@ -72,4 +73,7 @@ func main() {
 
 	/* pointers */
 	pointers.UsePointer()
+
+	/* structs */
+	structs.PrintPeople()
 }
