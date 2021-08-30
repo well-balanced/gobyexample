@@ -10,6 +10,7 @@ import (
 	"github.com/well-balanced/gobyexample/ifelse"
 	"github.com/well-balanced/gobyexample/loop"
 	"github.com/well-balanced/gobyexample/maps"
+	"github.com/well-balanced/gobyexample/methods"
 	"github.com/well-balanced/gobyexample/morestrings"
 	"github.com/well-balanced/gobyexample/multiplereturnfunctions"
 	"github.com/well-balanced/gobyexample/pointers"
@@ -76,4 +77,7 @@ func main() {
 
 	/* structs */
 	structs.PrintPeople()
+
+	/* methods */
+	methods.CreateMethods()
 }
