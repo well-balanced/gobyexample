@@ -13,6 +13,7 @@ import (
 	"github.com/well-balanced/gobyexample/morestrings"
 	"github.com/well-balanced/gobyexample/multiplereturnfunctions"
 	"github.com/well-balanced/gobyexample/ranges"
+	"github.com/well-balanced/gobyexample/recursion"
 	"github.com/well-balanced/gobyexample/slices"
 	"github.com/well-balanced/gobyexample/switchexp"
 	"github.com/well-balanced/gobyexample/values"
@@ -64,4 +65,7 @@ func main() {
 
 	/* closures */
 	closures.MakeClosureFunction()
+
+	/* recursion */
+	recursion.RecursiveFunc()
 }
