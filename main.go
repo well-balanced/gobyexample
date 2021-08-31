@@ -6,6 +6,7 @@ import (
 	"github.com/well-balanced/gobyexample/arraypkg"
 	"github.com/well-balanced/gobyexample/closures"
 	"github.com/well-balanced/gobyexample/constants"
+	"github.com/well-balanced/gobyexample/errortest"
 	"github.com/well-balanced/gobyexample/functions"
 	"github.com/well-balanced/gobyexample/ifelse"
 	"github.com/well-balanced/gobyexample/interfaces"
@@ -84,4 +85,7 @@ func main() {
 
 	/* interfaces */
 	interfaces.Measure()
+
+	/* errors */
+	errortest.ThrowError()
 }
