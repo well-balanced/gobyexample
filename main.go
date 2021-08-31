@@ -8,6 +8,7 @@ import (
 	"github.com/well-balanced/gobyexample/constants"
 	"github.com/well-balanced/gobyexample/functions"
 	"github.com/well-balanced/gobyexample/ifelse"
+	"github.com/well-balanced/gobyexample/interfaces"
 	"github.com/well-balanced/gobyexample/loop"
 	"github.com/well-balanced/gobyexample/maps"
 	"github.com/well-balanced/gobyexample/methods"
@@ -80,4 +81,7 @@ func main() {
 
 	/* methods */
 	methods.CreateMethods()
+
+	/* interfaces */
+	interfaces.Measure()
 }
