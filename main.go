@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/well-balanced/gobyexample/arraypkg"
+	"github.com/well-balanced/gobyexample/chanbuf"
 	"github.com/well-balanced/gobyexample/channels"
 	"github.com/well-balanced/gobyexample/closures"
 	"github.com/well-balanced/gobyexample/constants"
@@ -96,4 +97,7 @@ func main() {
 
 	/* channels */
 	channels.SendMessage()
+
+	/* channel buffering */
+	chanbuf.ChannelBuffering()
 }
