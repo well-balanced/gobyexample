@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/well-balanced/gobyexample/arraypkg"
+	"github.com/well-balanced/gobyexample/channels"
 	"github.com/well-balanced/gobyexample/closures"
 	"github.com/well-balanced/gobyexample/constants"
 	"github.com/well-balanced/gobyexample/errortest"
@@ -92,4 +93,7 @@ func main() {
 
 	/* goroutines */
 	goroutines.UseGoroutine()
+
+	/* channels */
+	channels.SendMessage()
 }
