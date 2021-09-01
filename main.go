@@ -6,6 +6,7 @@ import (
 	"github.com/well-balanced/gobyexample/arraypkg"
 	"github.com/well-balanced/gobyexample/chanbuf"
 	"github.com/well-balanced/gobyexample/channels"
+	"github.com/well-balanced/gobyexample/chansync"
 	"github.com/well-balanced/gobyexample/closures"
 	"github.com/well-balanced/gobyexample/constants"
 	"github.com/well-balanced/gobyexample/errortest"
@@ -100,4 +101,7 @@ func main() {
 
 	/* channel buffering */
 	chanbuf.ChannelBuffering()
+
+	/* channel synchronization */
+	chansync.SynchronizeChannel()
 }
