@@ -8,6 +8,7 @@ import (
 	"github.com/well-balanced/gobyexample/constants"
 	"github.com/well-balanced/gobyexample/errortest"
 	"github.com/well-balanced/gobyexample/functions"
+	"github.com/well-balanced/gobyexample/goroutines"
 	"github.com/well-balanced/gobyexample/ifelse"
 	"github.com/well-balanced/gobyexample/interfaces"
 	"github.com/well-balanced/gobyexample/loop"
@@ -88,4 +89,7 @@ func main() {
 
 	/* errors */
 	errortest.ThrowError()
+
+	/* goroutines */
+	goroutines.UseGoroutine()
 }
