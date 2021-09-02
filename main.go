@@ -3,109 +3,88 @@ package main
 import (
 	"fmt"
 
-	"github.com/well-balanced/gobyexample/arraypkg"
-	"github.com/well-balanced/gobyexample/chanbuf"
-	"github.com/well-balanced/gobyexample/channels"
-	"github.com/well-balanced/gobyexample/chansync"
-	"github.com/well-balanced/gobyexample/chanway"
-	"github.com/well-balanced/gobyexample/closures"
-	"github.com/well-balanced/gobyexample/constants"
-	"github.com/well-balanced/gobyexample/errortest"
-	"github.com/well-balanced/gobyexample/functions"
-	"github.com/well-balanced/gobyexample/goroutines"
-	"github.com/well-balanced/gobyexample/ifelse"
-	"github.com/well-balanced/gobyexample/interfaces"
-	"github.com/well-balanced/gobyexample/loop"
-	"github.com/well-balanced/gobyexample/maps"
-	"github.com/well-balanced/gobyexample/methods"
 	"github.com/well-balanced/gobyexample/morestrings"
-	"github.com/well-balanced/gobyexample/multiplereturnfunctions"
-	"github.com/well-balanced/gobyexample/pointers"
-	"github.com/well-balanced/gobyexample/ranges"
-	"github.com/well-balanced/gobyexample/recursion"
-	"github.com/well-balanced/gobyexample/slices"
-	"github.com/well-balanced/gobyexample/structs"
-	"github.com/well-balanced/gobyexample/switchexp"
-	"github.com/well-balanced/gobyexample/values"
-	"github.com/well-balanced/gobyexample/variables"
-	"github.com/well-balanced/gobyexample/variadicfunctions"
+	selection "github.com/well-balanced/gobyexample/select"
 )
 
 func main() {
 	fmt.Println(morestrings.ReverseRunes("!oG ,olleH"))
 
 	/* values */
-	values.PrintValues()
+	// values.PrintValues()
 
 	/* variabels */
-	variables.PrintVariables()
+	// variables.PrintVariables()
 
 	/* constants */
-	constants.PrintConstants()
+	// constants.PrintConstants()
 
 	/* loop */
-	loop.Loop()
+	// loop.Loop()
 
 	/* if/else */
-	ifelse.PrintValuesConditionally()
+	// ifelse.PrintValuesConditionally()
 
 	/* switch */
-	switchexp.Switch()
+	// switchexp.Switch()
 
 	/* arrays */
-	arraypkg.PrintArrays()
+	// arraypkg.PrintArrays()
 
 	/* slices */
-	slices.PrintSlices()
+	// slices.PrintSlices()
 
 	/* maps */
-	maps.PrintMaps()
+	// maps.PrintMaps()
 
 	/* ranges */
-	ranges.PrintRanges()
+	// ranges.PrintRanges()
 
 	/* functions */
-	functions.PrintFucntions()
+	// functions.PrintFucntions()
 
 	/* multiple return functions */
-	multiplereturnfunctions.MakeMutipleValueFunction()
+	// multiplereturnfunctions.MakeMutipleValueFunction()
 
 	/* variadic functions */
-	variadicfunctions.MakeVariadicFunction()
+	// variadicfunctions.MakeVariadicFunction()
 
 	/* closures */
-	closures.MakeClosureFunction()
+	// closures.MakeClosureFunction()
 
 	/* recursion */
-	recursion.RecursiveFunc()
+	// recursion.RecursiveFunc()
 
 	/* pointers */
-	pointers.UsePointer()
+	// pointers.UsePointer()
 
 	/* structs */
-	structs.PrintPeople()
+	// structs.PrintPeople()
 
 	/* methods */
-	methods.CreateMethods()
+	// methods.CreateMethods()
 
 	/* interfaces */
-	interfaces.Measure()
+	// interfaces.Measure()
 
 	/* errors */
-	errortest.ThrowError()
+	// errortest.ThrowError()
 
 	/* goroutines */
-	goroutines.UseGoroutine()
+	// goroutines.UseGoroutine()
 
 	/* channels */
-	channels.SendMessage()
+	// channels.SendMessage()
 
 	/* channel buffering */
-	chanbuf.ChannelBuffering()
+	// chanbuf.ChannelBuffering()
 
 	/* channel synchronization */
-	chansync.SynchronizeChannel()
+	// chansync.SynchronizeChannel()
 
 	/* channel direction */
-	chanway.PingPongMsg()
+	// chanway.PingPongMsg()
+
+	/* select */
+	selection.Select()
 }
