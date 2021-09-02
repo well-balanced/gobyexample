@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/well-balanced/gobyexample/morestrings"
-	"github.com/well-balanced/gobyexample/timeouts"
+	nonblockchanops "github.com/well-balanced/gobyexample/non-blocking-channel-operations"
 )
 
 func main() {
@@ -89,5 +89,8 @@ func main() {
 	// selection.Select()
 
 	/* timeouts */
-	timeouts.Timeout()
+	// timeouts.Timeout()
+
+	/* non-blocking channel operations */
+	nonblockchanops.NonBlockingChannelOperations()
 }
