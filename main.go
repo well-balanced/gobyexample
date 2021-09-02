@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/well-balanced/gobyexample/morestrings"
-	selection "github.com/well-balanced/gobyexample/select"
+	"github.com/well-balanced/gobyexample/timeouts"
 )
 
 func main() {
@@ -86,5 +86,8 @@ func main() {
 	// chanway.PingPongMsg()
 
 	/* select */
-	selection.Select()
+	// selection.Select()
+
+	/* timeouts */
+	timeouts.Timeout()
 }
